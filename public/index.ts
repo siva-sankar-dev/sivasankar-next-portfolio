@@ -7,15 +7,17 @@ import node from "./node.png";
 import kotlin from "./kotlin.png";
 import swift from "./swift.png";
 import next from "./next.png";
+import godot from "./godot.png";
 
 export {
-    flutter,
     firebase,
-    react,
+    flutter,
+    godot,
+    kotlin,
     mongo,
     next,
-    python,
     node,
-    kotlin,
-    swift
-}
+    python,
+    react,
+    swift,
+};

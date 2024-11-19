@@ -12,9 +12,9 @@ const RecentProjects = () => {
    <section id='projects'>
      <div className='py-20'>
         <h1 className='heading'>
-            Collection of {' '}
+            What i've been  {' '}
             <span className='text-purple'>
-                recent Projects
+              working on
             </span>
         </h1>
         <div className='flex flex-wrap  items-center justify-center p-4 gap-16 mt-10'>

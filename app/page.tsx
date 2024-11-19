@@ -19,7 +19,7 @@ export default function Home() {
       <Grid/>
       <RecentProjects/>
       <Approch/>
-      <WorkExperience/>
+      {/* <WorkExperience/> */}
       <Footer/>
     </div>
   </main>
