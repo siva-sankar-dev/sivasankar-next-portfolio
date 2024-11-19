@@ -297,13 +297,24 @@ export const approch = [
 ];
 export const socialMedia = [
   {
+    id: 0,
+    link:
+      "https://www.instagram.com/_.__siva__._/profilecard/?igsh=ZHk0eHJqMnRyMzlp",
+  },
+  {
+    id: 1,
+    link: "https://github.com/siva-sankar-dev",
+  },
+  {
     id: 2,
-    link: "https://github.com/error3236",
-    img: "./git.svg",
+    link: "https://www.linkedin.com/in/siva-sankar-1b41091b8/",
   },
   {
     id: 3,
-    link: "https://www.linkedin.com/in/siva-sankar-1b41091b8/",
-    img: "./link.svg",
+    link: "https://www.facebook.com/profile.php?id=100073630972173",
+  },
+  {
+    id: 4,
+    link: "https://www.youtube.com/@siva_sankar_",
   },
 ];

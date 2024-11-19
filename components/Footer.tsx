@@ -1,6 +1,6 @@
 import { socialMedia } from "@/data"
 import ShimmerButton from "./Ui/ShimmerButton"
-import { FaLocationArrow } from "react-icons/fa"
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaLocationArrow, FaYoutube } from "react-icons/fa"
 
 
 const Footer = () => {
@@ -12,13 +12,13 @@ const Footer = () => {
     return (
         <footer className="w-full pt-20 pb-10" id="contact">
             {/* background grid */}
-            <div className="w-full absolute left-0 -bottom-72 min-h-96">
+            {/* <div className="w-full absolute left-0 -bottom-72 min-h-96">
                 <img
                     src="./footer-grid.svg"
                     alt="grid"
                     className="w-full h-full opacity-50 "
                 />
-            </div>
+            </div> */}
 
             <div className="flex flex-col items-center">
                 <h1 className="heading lg:max-w-[45vw]">
@@ -42,17 +42,21 @@ const Footer = () => {
                 </p>
 
                 <div className="flex items-center md:gap-3 gap-6">
-                    {socialMedia.map((info) => (
-                      <a href={info.link}>
-                          <div
-                            key={info.id}
-                            
-                            className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
-                        >
-                            <img src={info.img} alt="icons" width={20} height={20} />
-                        </div>
-                      </a>
-                    ))}
+                <a href={socialMedia[0].link} className=''>
+          <FaInstagram size={40} color='#FFFFFF' />
+          </a>
+          <a href={socialMedia[1].link} className=''>
+          <FaGithub size={40} color='#FFFFFF' />
+          </a>
+          <a href={socialMedia[2].link} className=''>
+          <FaLinkedin size={40} color='#FFFFFF' />
+          </a>
+          <a href={socialMedia[3].link} className=''>
+          <FaFacebook size={40} color='#FFFFFF' />
+          </a>
+          <a href={socialMedia[4].link} className=''>
+          <FaYoutube size={40} color='#FFFFFF' />
+          </a>
                 </div>
             </div>
         </footer>
