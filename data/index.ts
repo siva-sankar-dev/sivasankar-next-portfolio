@@ -8,16 +8,16 @@ export const navItems = [
   { name: "Contact", link: "#contact" },
 ];
 export const techstack = [
-  {
+   {
     id: 1,
-    name: "Flutter",
-    designation: "Dart",
+    name: "UIKit, Swift UI",
+    designation: "Swift",
     image: "./flutter",
   },
   {
     id: 2,
-    name: "Swift UI",
-    designation: "Swift",
+    name: "Flutter",
+    designation: "Dart",
     image: "./flutter",
   },
   {
@@ -59,8 +59,8 @@ export const techList2 = [
   "./firebase.png",
 ];
 export const tech = [
+   { id: 10, img: "./swift.png", title: "Swift" },
   { id: 1, img: "./flutter.png", title: "Flutter" },
-  { id: 10, img: "./swift.png", title: "Swift" },
   { id: 12, img: "./go.png", title: "Go" },
   { id: 1, img: "./next.png", title: "Next.js" },
   { id: 1, img: "./react.png", title: "React" },
@@ -116,7 +116,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Creating an e-commerce app for a client",
+    title: "Creating a cool flutter package",
     description: "I'm not lazy 😒",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -137,8 +137,16 @@ export const gridItems = [
 ];
 
 export const projects = [
-  {
+   {
     id: 1,
+    title: "ModKit",
+    des: "Developed ModKit, a comprehensive SwiftUI utility library that enhances native SwiftUI components with powerful, clean modifiers and extensions. Features include advanced styling, simplified layout controls, gesture handling, debugging tools, and a protocol-oriented network layer with async/await support. Designed for iOS, macOS, tvOS, and watchOS, ModKit improves developer productivity by providing concise, dependency-free tools for building modern Swift applications.",
+    img: "./modkit.png",
+    iconLists: ["./swift.png"],
+    link: "",
+  },
+  {
+    id: 2,
     title: "Classified App Development",
     des: "Developed a classified ads application using Flutter and libraries like Cubit for state management, Dio for RESTful API integration, and Websockets for real-time updates. The app allowed users to post, search, and manage listings while enabling real-time chat and notifications. This project enhanced my skills in building responsive user interfaces, managing application states efficiently, and handling real-time communication in mobile applications.",
     img: "./flutter.png",
