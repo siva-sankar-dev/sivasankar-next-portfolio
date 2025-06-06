@@ -140,15 +140,15 @@ export const projects = [
    {
     id: 1,
     title: "ModKit",
-    des: "Developed ModKit, a comprehensive SwiftUI utility library that enhances native SwiftUI components with powerful, clean modifiers and extensions. Features include advanced styling, simplified layout controls, gesture handling, debugging tools, and a protocol-oriented network layer with async/await support. Designed for iOS, macOS, tvOS, and watchOS, ModKit improves developer productivity by providing concise, dependency-free tools for building modern Swift applications.",
+    des: "Built ModKit, a lightweight SwiftUI utility library offering clean modifiers, layout helpers, gesture support, and async/await networking. Designed for all Apple platforms, it boosts developer productivity with concise, dependency-free tools.",
     img: "./modkit.png",
     iconLists: ["./swift.png"],
-    link: "",
+    link: "https://github.com/siva-sankar-dev/ModKit.git",
   },
   {
     id: 2,
     title: "Classified App Development",
-    des: "Developed a classified ads application using Flutter and libraries like Cubit for state management, Dio for RESTful API integration, and Websockets for real-time updates. The app allowed users to post, search, and manage listings while enabling real-time chat and notifications. This project enhanced my skills in building responsive user interfaces, managing application states efficiently, and handling real-time communication in mobile applications.",
+    des: "Developed a freelance classified ads app in Flutter using Cubit, Dio, and WebSockets. Enabled posting, search, and real-time chat. Strengthened skills in UI, state management, and real-time features.",
     img: "./flutter.png",
     iconLists: ["./flutter.png"],
     link: "",
