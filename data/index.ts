@@ -139,6 +139,14 @@ export const gridItems = [
 export const projects = [
    {
     id: 1,
+    title: "Declare",
+    des: "I'm excited to introduce Declare — a minimal yet powerful state management package for Flutter that brings a clean, declarative feel to UI development.",
+    img: "./declare.png",
+    iconLists: ["./flutter.png"],
+    link: "https://pub.dev/packages/declare",
+  },
+   {
+    id: 2,
     title: "ModKit",
     des: "Built ModKit, a lightweight SwiftUI utility library offering clean modifiers, layout helpers, gesture support, and async/await networking. Designed for all Apple platforms, it boosts developer productivity with concise, dependency-free tools.",
     img: "./modkit.png",
@@ -146,7 +154,7 @@ export const projects = [
     link: "https://github.com/siva-sankar-dev/ModKit.git",
   },
   {
-    id: 2,
+    id: 3,
     title: "Classified App Development",
     des: "Developed a freelance classified ads app in Flutter using Cubit, Dio, and WebSockets. Enabled posting, search, and real-time chat. Strengthened skills in UI, state management, and real-time features.",
     img: "./flutter.png",
@@ -154,7 +162,7 @@ export const projects = [
     link: "",
   },
   {
-    id: 2,
+    id: 4,
     title: "2D platformer game",
     des: "Developed a 2D platformer game using Godot, inspired by classic Super Mario gameplay. The game features a character navigating through levels, avoiding obstacles, and collecting coins to complete each stage. This project strengthened my skills in game design, physics-based mechanics, and level development, providing hands-on experience in creating engaging and interactive gameplay experiences.",
     img: "./game.png",
@@ -162,7 +170,7 @@ export const projects = [
     link: "https://youtu.be/JiJCHmVIwz8",
   },
   {
-    id: 3,
+    id: 5,
     title: "Diabetes Prediction Model",
     des: "Developed a machine learning model using Python and libraries like NumPy, Pandas, StandardScaler , and scikit-learn to predict diabetesbased on input data. The model was trained on a dataset of relevantfeatures to accurately classify individuals as diabetic or non-diabetic. Thisproject served as a valuable learning experience in applying machinelearning techniques to real-world problems.",
     img: "./diabetes.png",
@@ -170,7 +178,7 @@ export const projects = [
     link: "https://colab.research.google.com/drive/1eLqVGOaOqkgEyGPNwdkXjZZ3ZQPs5hir?usp=sharing",
   },
   {
-    id: 4,
+    id: 6,
     title: "Space",
     des: "An anonymous chat mobile app, book,Users can join dynamic conversations in user-createdrandom spaces, fostering a sense of connection without revealing identities",
     img: "./space.png",
@@ -178,7 +186,7 @@ export const projects = [
     link: "https://github.com/error3236/Space",
   },
   {
-    id: 5,
+    id: 7,
     title: "EYE",
     des: "Ensuring your Emergency:an emergency system. Street tablets send video alerts to a central app upon button press. A mobile app lets users find nearby beacons and report emergencies",
     img: "./eye.png",
@@ -186,7 +194,7 @@ export const projects = [
     link: "https://github.com/error3236/SOS-WebApp",
   },
   {
-    id: 6,
+    id: 8,
     title: "Sivasankar | Portfolio",
     des: "Developed a portfolio to showcase my skills in UI designing and Next.js",
     img: "./portfolio.png",
